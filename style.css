@@ -1,5 +1,19 @@
+@font-face{
+    font-family: "2dumb";
+    src:
+        url("./fonts/2Dumb.woff2") format("woff2"),
+        url("./fonts/2Dumb.woff") format("woff");
+    font-weight: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
 *{
     margin:0;
     padding:0;
     box-sizing: border;
+}
+
+body{
+    font-family: "2dumb", system-ui;
 }
